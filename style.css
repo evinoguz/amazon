@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* Navbar */
+.navbar{
+    background-color: #131921;
+    color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1px solid transparent;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.border:hover{
+    border-color: white;
+    cursor: pointer;
+}
+.add-first{
+    font-size: 13.6px;
+    color: #cccccc;
+    margin-left: 3px;
+}
+.add-second{
+    font-size: 16px;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search-input{
+    width: 100%;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+}
+.search-icon{
+    width: 45px;
+    background-color: #fabd68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+span{
+    font-size: 12px;
+}
+.nav-second{
+    font-size: 14px;
+    font-weight: 800;
+}
+.nav-cart{
+    font-size: 14px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+
+/* Panel */
+.panel{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+}
+.bi{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.panel-ops p{
+    display: inline-flex;
+    height: 40px;
+    padding: 0 3px;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 14px;
+
+}
+.panel-deals{
+    padding: 0 3px;
+    font-size: 14px;
+    font-weight: 700;
+}
+/* Hero */
+.hero-section{
+    background-image: url("./images/hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.hero-msg{
+    width: 80%;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+.hero-msg a{
+    color: #92BDC6;
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+/* shift+alt+aşağı ok tuşu 
+ile seçilen alanın kopyasını 
+oluşturur. */
+
+/* Shop section 1*/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e5e2e7;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+.box{
+    height: 420px;
+    width: 23%;
+    padding: 20px 15px;
+    background-color: white;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin: 16px 0;
+}
+.box-content p{
+    color: #68a4b1;
+}
+/* Shop section 2*/
+.container{
+    background-color: #e2e7e6;
+    padding: 10px 0;
+}
+.title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 30px;
+}
+.title a{
+    color: #476f78;
+    text-decoration: none;
+}
+.title a:hover{
+    text-decoration: underline;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 15px 0;
+    gap: 20px;
+}
+.box1{
+    height: 330px;
+    background-color: white;
+    padding: 10px 20px;
+}
+.img img{
+    width: 100%;
+    height: 250px;
+}
+.box1-content{
+    display: flex;
+    align-items: center;
+    width: 320px;
+    margin: 5px 0;
+}
+.box1-content p{
+    color: crimson;
+    font-size: 15px;
+    white-space: nowrap;
+}
+.box1-content p span{
+    background-color: crimson;
+    color: white;
+    margin-right: 6px;
+    font-size: 13px;
+}
+/* Footer Panel 1 */
+.foot-panel1{
+    background-color: #364759;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+.foot-panel1 a{
+    color: white;
+    text-decoration: none;
+}
+.foot-panel1:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+/* Footer Panel 2 */
+.foot-panel2{
+    background-color: #222f3c;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-panel2 a{
+    text-decoration: none;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 13.2px;
+    margin-top: 10px;
+    transition: all 0.3s;
+    color: rgb(200, 200, 200);
+}
+ul a:hover{
+    color: #fabd68;
+}
+/* Seperation */
+.seperation{
+    background-color: rgb(200, 200, 200);
+    height: 2px;
+}
+/* Footer Panel 3 */
+.foot-panel3{
+    background-color: #222f3c;
+    padding: 20px 0 ;
+    width: 100%;
+    height: 150px;
+}
+.foot-logo{
+    display: flex;
+    justify-content: center;
+}
+.foot-panel3 img{
+    height: 50px;
+    width: 100px;
+}
+.foot-country ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgb(200, 200, 200);
+    font-size: 12px;
+}
+.foot-country ul a:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+    color: rgb(200, 200, 200)
+}
+/* Footer Panel 4 */
+.foot-panel4{
+    background-color: #131A22;
+    padding: 10px 0 ;
+    width: 100%;
+    height: 100px;
+}
+.foot-item ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgb(200, 200, 200);
+    font-size: 12px;
+}
+.foot-item ul a:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+    color: rgb(200, 200, 200)
+}
+.foot-panel4 p{
+    color: rgb(200, 200, 200);
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+
